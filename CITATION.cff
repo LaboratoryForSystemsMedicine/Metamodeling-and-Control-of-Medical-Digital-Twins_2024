@@ -1,0 +1,69 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Metamodeling and Control of Medical Digital Twins
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Luis
+    name-particle: L.
+    family-names: Fonseca
+    email: llfonseca@medicine.ufl.edu
+    affiliation: >-
+      Laboratory for Systems Medicine, Department of
+      Medicine, University of Florida, Gainesville, FL, USA
+    orcid: 'https://orcid.org/0000-0002-7902-742X'
+  - given-names: Lucas
+    family-names: Böttcher
+    email: l.boettcher@fs.de
+    affiliation: >-
+      Department of Computational Science and Philosophy,
+      Frankfurt School of Finance and Management, 60322
+      Frankfurt am Main, Germany
+    orcid: 'https://orcid.org/0000-0003-1700-1897'
+  - given-names: Borna
+    family-names: Mehrad
+    affiliation: >-
+      Laboratory for Systems Medicine, Department of
+      Medicine, University of Florida, Gainesville, FL, USA
+    email: Borna.Mehrad@medicine.ufl.edu
+    orcid: 'https://orcid.org/0000-0001-5198-065X'
+  - affiliation: >-
+      Laboratory for Systems Medicine, Department of
+      Medicine, University of Florida, Gainesville, FL, USA
+    given-names: Reinhard
+    family-names: Laubenbacher
+    name-particle: C.
+    email: Reinhard.Laubenbacher@medicine.ufl.edu
+    orcid: 'https://orcid.org/0000-0002-9143-9451'
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2402.05750
+    description: arXiv
+repository-code: >-
+  https://github.com/LaboratoryForSystemsMedicine/Metamodeling-and-Control-of-Medical-Digital-Twins_2024
+abstract: >-
+  The vision of personalized medicine is to identify
+  interventions that maintain or restore a person’s health
+  based on their individual biology. Medical digital twins,
+  computational models that integrate a wide range of
+  health-related data about a person and can be dynamically
+  updated, are a key technology that can help guide medical
+  decisions. Such medical digital twin models can be
+  high-dimensional, multi-scale, and stochastic. To be
+  practical for healthcare applications, they need to be
+  simplified into low-dimensional metamodels that can be
+  used for forecasting and optimal design of interventions.
+  This paper introduces metamodeling algorithms for the
+  purpose of optimal control applications. It uses
+  agent-based models as a use case, a common model type in
+  biomedicine for which there are no readily available
+  optimal control algorithms. With systems of ordinary
+  differential equations as metamodels, optimal control
+  methods can be applied to the metamodels, and results can
+  be lifted to the agent-based model. 
+license: MIT
+date-released: '2024-02-08'
