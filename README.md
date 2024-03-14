@@ -3,7 +3,7 @@
 This repository contains the files used in the manuscript entitled: Metamodeling and Control of Medical Digital Twins.<br>
 Under review in *Science Advances*. Preprint at [arXiv](https://doi.org/10.48550/arXiv.2402.05750). <br>
 
-The manuscript uses two agent-based models (ABMs) to illustrate the different methodologies for creating ODE approximations of ABMs. The two ABMs are the sheep-wolves-grass version of the [Wolf Sheep Predation model](https://ccl.northwestern.edu/netlogo/models/WolfSheepPredation) and a purposely built model of a toy metabolic pathway.
+The manuscript uses two agent-based models (ABMs) to illustrate the different methodologies for creating ODE approximations of ABMs for control purposes. The two ABMs are the sheep-wolves-grass version of the [Wolf Sheep Predation model](https://ccl.northwestern.edu/netlogo/models/WolfSheepPredation) and a purposely built model of a toy metabolic pathway.
 
 ## Files used for approximating the Wolf Sheep Predation model
  - `Wolf Sheep Predation original.nlogo` **Original** code for the Wolf Sheep Predation model.
